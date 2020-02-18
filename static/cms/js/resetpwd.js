@@ -19,6 +19,7 @@ $(function () {
             },
             'success': function (data) {
                 if(data['code'] == 200){
+                    // 清除输入框中的数据，设置为空字符串
                     oldpwdInput.val('');
                     newpwdInput.val('');
                     newpwdRepeatInput.val('');

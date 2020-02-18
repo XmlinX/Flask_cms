@@ -184,10 +184,13 @@ body {
 }
 
 
-
 .top-group{
     padding: 5px 10px;
     border-radius: 2px;
     background: #ecedf0;
     overflow: hidden;
+}
+
+.form-container{
+    width: 350px;
 }
